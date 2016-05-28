@@ -2,18 +2,47 @@ a:visited
 {
     color: blue;
 }
+body
+{
+    background-color: cornsilk;
+    font-family: 'Segoe UI', 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif
+}
+#mainWrapper
+{
+    width:90%;
+    margin:auto;
+}
 header
 {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-transform: uppercase;
 }
-.navigationElement
+nav ul
 {
-    text-decoration: ;
+    list-style-type: none;        
+    display: flex;       
+}
+nav li
+{
+    margin-right: 15px;
 }
 section
 {
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+article
+{
+    margin-right: 5%;
+    text-align: justify;
+}
+
+aside
+{
+    text-align: justify;    
 }
 
 #social
