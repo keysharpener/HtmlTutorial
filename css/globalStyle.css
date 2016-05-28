@@ -12,13 +12,17 @@ body
     width:90%;
     margin:auto;
 }
+
+section,aside
+{
+    margin-top: 3em;
+}
 header
 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     text-transform: uppercase;
-    border-bottom: solid darkslateblue;
 }
 nav ul
 {
@@ -29,10 +33,18 @@ nav li
 {
     margin-right: 15px;
 }
+
+#banner
+{
+    opacity: 1.1;
+    width: 50%;
+    height: auto;
+}
+
 section
 {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-top;
     justify-content: space-between;
 }
 
@@ -62,26 +74,23 @@ aside
     position: relative;
     flex:0.8;
     padding: 10px;
-    margin-top: 10%;
     border-radius: 5px;    
     color:white;
+    text-align: justify;
+    justify-content: space-between;
+    
 }
 
-#social
+aside h1, #socialIconLinks, #portrait
 {
-    display: flex;
+    text-align: center;  
 }
+
 #twitterIcon, #githubIcon
 {
-    width:45%; 
+    width:35%; 
     height: auto;
 }
-
-#portrait
-{
-    text-align: center;
-}
-
 
 @media (max-width: 500px)
 {
@@ -90,15 +99,35 @@ aside
         list-style-type: circle;        
         display: initial;
     }
+    
     nav li
     {
         margin-right: 15px;
     }
+    
     section
     {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         justify-content: space-between;
+    }
+    
+
+    #portrait
+    {
+        float: left;
+        margin-right: 3%;
+    }
+
+    aside :nth-child(2)
+    {
+        margin-top: 0.3em;    
+    }    
+    
+    #twitterIcon, #githubIcon
+    {
+        height: 5em; 
+        width: auto;
     }
 }
