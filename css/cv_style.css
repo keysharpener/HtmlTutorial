@@ -7,7 +7,7 @@
          url('fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
 }
 
-#jobDescription
+header
 {
     color: red;
     font-size: large; 
@@ -27,13 +27,42 @@ h2
 
 h1
 {
+    padding: 0%;
     font-family: 'LearningCurveProRegular';
     font-size: 4em;
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
+    border: solid 3px;
+    border-radius: 40px / 10px;
 }
 
-*
+body
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("http://www.chiens-online.com/_upload/ressources/global/fiches_de_races/toutes_photos_CGA_resized/caniche_gris.JPG");
+    color: red;
+}
+
+strong
+{
+color: yellow;    
+}
+a:hover
+{
+    font-size: 2em;
+}
+
+a:visited
+{
+    color: blue;
+}
+h2:hover
+{
+    border: dashed, 2em;
+    box-shadow: 6px, 6px, 6px, 3px, black;    
+}
+
+#portrait
+{
+    text-align: center;    
 }

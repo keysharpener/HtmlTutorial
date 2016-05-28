@@ -1,0 +1,82 @@
+a:visited 
+{
+    color: blue;
+}
+body
+{
+    background-color: cornsilk;
+    font-family: 'Segoe UI', 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif
+}
+#mainWrapper
+{
+    width:90%;
+    margin:auto;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-transform: uppercase;
+    border-bottom: solid darkslateblue;
+}
+nav ul
+{
+    list-style-type: none;        
+    display: flex;       
+}
+nav li
+{
+    margin-right: 15px;
+}
+section
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+article, aside
+{
+    text-align: justify;    
+}
+
+article
+{
+    flex:3;
+    margin-right: 5%;
+}
+.icoCategory
+{
+    vertical-align: middle;
+    width:10%; /* you can use % */
+    height: auto;
+}
+
+aside
+{
+    font-size: 0.8em;
+    background: gray;
+    position: relative;
+    flex:0.8;
+    padding: 10px;
+    margin-top: 10%;
+    border-radius: 5px;    
+    color:white;
+}
+
+#social
+{
+    display: flex;
+}
+#twitterIcon, #githubIcon
+{
+    width:45%; /* you can use % */
+    height: auto;
+}
+
+#portrait
+{
+    text-align: center;
+}
+
+
