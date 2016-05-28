@@ -1,4 +1,28 @@
-a:visited
+a:visited 
 {
     color: blue;
 }
+header
+{
+    display: flex;
+}
+.navigationElement
+{
+    text-decoration: ;
+}
+section
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#social
+{
+    display: flex;
+}
+#twitterIcon, #githubIcon
+{
+    width:45%; /* you can use % */
+    height: auto;
+}
+
