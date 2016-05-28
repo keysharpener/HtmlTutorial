@@ -35,6 +35,7 @@ section
     align-items: flex-start;
     justify-content: space-between;
 }
+
 article, aside
 {
     text-align: justify;    
@@ -45,6 +46,8 @@ article
     flex:3;
     margin-right: 5%;
 }
+
+
 .icoCategory
 {
     vertical-align: middle;
@@ -70,7 +73,7 @@ aside
 }
 #twitterIcon, #githubIcon
 {
-    width:45%; /* you can use % */
+    width:45%; 
     height: auto;
 }
 
@@ -80,3 +83,22 @@ aside
 }
 
 
+@media (max-width: 500px)
+{
+    nav ul
+    {
+        list-style-type: circle;        
+        display: initial;
+    }
+    nav li
+    {
+        margin-right: 15px;
+    }
+    section
+    {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
