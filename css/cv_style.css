@@ -1,32 +1,26 @@
-@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+@font-face {
+    /* Définition d'une nouvelle police nommée LearningCurveProRegular */
     font-family: 'LearningCurveProRegular';
     src: url('fonts/LearningCurve_OT-webfont.eot');
-    src: url('fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/LearningCurve_OT-webfont.woff') format('woff'),
-         url('fonts/LearningCurve_OT-webfont.ttf') format('truetype'),
-         url('fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+    src: url('fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LearningCurve_OT-webfont.woff') format('woff'), url('fonts/LearningCurve_OT-webfont.ttf') format('truetype'), url('fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
 }
 
-header
-{
+header {
     color: red;
-    font-size: large; 
+    font-size: large;
     text-align: center;
 }
 
-.jobPosition
-{
+.jobPosition {
     color: seagreen;
 }
-    
-h2
-{
+
+h2 {
     color: steelblue;
-    font-size: 1.5em;    
+    font-size: 1.5em;
 }
 
-h1
-{
+h1 {
     padding: 0%;
     font-family: 'LearningCurveProRegular';
     font-size: 4em;
@@ -36,33 +30,29 @@ h1
     border-radius: 40px / 10px;
 }
 
-body
-{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url("http://www.chiens-online.com/_upload/ressources/global/fiches_de_races/toutes_photos_CGA_resized/caniche_gris.JPG");
     color: red;
 }
 
-strong
-{
-color: yellow;    
+strong {
+    color: yellow;
 }
-a:hover
-{
+
+a:hover {
     font-size: 2em;
 }
 
-a:visited
-{
+a:visited {
     color: blue;
 }
-h2:hover
-{
+
+h2:hover {
     border: dashed, 2em;
-    box-shadow: 6px, 6px, 6px, 3px, black;    
+    box-shadow: 6px, 6px, 6px, 3px, black;
 }
 
-#portrait
-{
-    text-align: center;    
+#portrait {
+    text-align: center;
 }

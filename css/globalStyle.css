@@ -1,133 +1,112 @@
-a:visited 
-{
+a:visited {
     color: blue;
 }
-body
-{
+
+body {
     background-color: cornsilk;
     font-family: 'Segoe UI', 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif
 }
-#mainWrapper
-{
-    width:90%;
-    margin:auto;
+
+#mainWrapper {
+    width: 90%;
+    margin: auto;
 }
 
-section,aside
-{
+section,
+aside {
     margin-top: 3em;
 }
-header
-{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     text-transform: uppercase;
 }
-nav ul
-{
-    list-style-type: none;        
-    display: flex;       
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    border: solid;
 }
-nav li
-{
+
+nav li {
     margin-right: 15px;
 }
 
-#banner
-{
-    opacity: 1.1;
-    width: 50%;
-    height: auto;
-}
-
-section
-{
+section {
     display: flex;
     align-items: flex-top;
     justify-content: space-between;
 }
 
-article, aside
-{
-    text-align: justify;    
+article,
+aside {
+    text-align: justify;
 }
 
-article
-{
-    flex:3;
+article {
+    flex: 3;
     margin-right: 5%;
 }
 
-
-.icoCategory
-{
+.icoCategory {
     vertical-align: middle;
-    width:10%; /* you can use % */
+    width: 10%;
+    /* you can use % */
     height: auto;
 }
 
-aside
-{
+aside {
     font-size: 0.8em;
     background: gray;
     position: relative;
-    flex:0.8;
+    flex: 0.8;
     padding: 10px;
-    border-radius: 5px;    
-    color:white;
+    border-radius: 5px;
+    color: white;
     text-align: justify;
     justify-content: space-between;
-    
 }
 
-aside h1, #socialIconLinks, #portrait
-{
-    text-align: center;  
+aside h1,
+#socialIconLinks,
+#portrait {
+    text-align: center;
 }
 
-#twitterIcon, #githubIcon
-{
-    width:35%; 
+#twitterIcon,
+#githubIcon {
+    width: 35%;
     height: auto;
 }
 
-@media (max-width: 500px)
-{
-    nav ul
-    {
-        list-style-type: circle;        
+@media (max-width: 500px) {
+    nav ul {
+        margin-top: 0;
+        list-style-type: circle;
         display: initial;
+        border-style: initial;
     }
-    
-    nav li
-    {
+    nav li {
         margin-right: 15px;
     }
-    
-    section
-    {
+    section {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         justify-content: space-between;
     }
-    
-
-    #portrait
-    {
+    #portrait {
         float: left;
         margin-right: 3%;
     }
-
-    aside :nth-child(2)
-    {
-        margin-top: 0.3em;    
-    }    
-    
-    #twitterIcon, #githubIcon
-    {
-        height: 5em; 
+    aside:nth-child(2) {
+        margin-top: 0.3em;
+    }
+    #twitterIcon,
+    #githubIcon {
+        height: 5em;
         width: auto;
     }
 }
