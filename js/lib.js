@@ -1,5 +1,3 @@
-var h = document.head; // La variable h contient l'objet head du DOM
-console.log(h);
-
-var b = document.body; // La variable b contient l'objet body du DOM
-console.log(b);
+console.log("Bonjour en Javascript!");
+var test = document.getElementById("paragraph");
+console.log(test);
